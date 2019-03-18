@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar:400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+body {
+    font-family: 'Eczar', serif;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    font-weight: 400;
+}
+
+h2,h3,h4,h5,h6 {
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    font-weight: 400;
+}
+
+li {
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    font-weight: 400;
+}
+
+a:link {
+    color: white;
+    text-decoration: none; 
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+div#header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    top: 0; 
+    left: 0;
+}
+
+h1#header {
+    margin: 2px 0px 5px 0px;
+}
+
+div#navBar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    border-bottom: solid;
+    border-top: solid;
+    border-color: white;
+    border-width: 2px;
+    margin-bottom: 5px;
+}
+
+h5.navBar {
+    margin: 10px 10px 10px 10px;
+}
+
+
+div.article-imgs {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+    margin-right: 5px
+}
+
+img.article-imgs {
+    vertical-align: middle;
+    margin: 5px;
+    max-width: 436px;
+    max-height: 240px;
+}
+
+h3.article-imgs {
+    margin-bottom: 3px;
+}
+
+div.articleImg {
+    display: flex;
+}
+
+div.blog {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: flex-start;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+img.blog {
+    vertical-align: middle;
+    margin: 5px;
+    max-width: 65px;
+    min-width: 0;
+}
+
+h3.blog {
+    margin-bottom: 3px;
+}
+
+div.blog{
+    display: flex;
+    margin-right: 0;
+}
+
+.blogText {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: left;
+    margin-bottom: 0;
+    margin: 0 0 5px 5px;
+    max-width: 300px;
+    font-size: .95em;
+}
+
+h2#featuredWork {
+    margin-bottom: 10px;
+}
+
+
+.blogPost {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.footer {
+    display: flex;
+    flex-flow: row wrap;
+    border-top: solid;
+    border-color: white;
+    border-width: 2px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    justify-content: center;
+/*     position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black; */
+
+}
+
+img.footer {
+    max-width: 40px;
+    vertical-align: middle;
+    margin-top: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h5.footer {
+    vertical-align: middle;
+    align-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
